@@ -1,0 +1,31 @@
+/* reset*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    height: 100px
+}
+
+main{
+    padding: 3rem;
+    background-color: black;
+    }
+
+#grid{
+    width: 60%;
+    aspect-ratio: 1/1;
+    margin:auto;
+    border: 2px solid white;
+}
+.cell{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid white;
+}
