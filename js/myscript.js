@@ -9,7 +9,11 @@ gridEl.classList.add('d-flex', 'flex-wrap');
 //console.log(gridEl);
 
  for (i = 0; i < 100; i++) {
-    gridEl.appendChild(generateCell(i +1));
+    const newCell = generateCell(i +1);
+    newCell.addEventListener('click', function(){
+        newCell.classList.toggle('clicked');
+    })
+    gridEl.appendChild(newCell);
  }
 });
 
@@ -21,5 +25,3 @@ function generateCell(content) {
     addCell.classList.add('cell');
     return addCell;
 }
-
-
