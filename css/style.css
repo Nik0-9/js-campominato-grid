@@ -7,21 +7,23 @@
 
 body{
     font-family: "Roboto", sans-serif;
+    background-color: black;
 }
 
 header{
-    height: 100px
+    height: 100px;
+    background-color: white;
 }
 
 main{
     padding: 3rem;
-    background-color: black;
     }
 
 #grid{
-    width: 60%;
+    width: 40%;
     aspect-ratio: 1/1;
     margin:auto;
+    /* border: 2px white solid; */
     /* border: 2px solid white; */
 }
 .cell{
